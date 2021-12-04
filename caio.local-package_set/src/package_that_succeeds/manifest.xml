@@ -1,0 +1,10 @@
+<package>
+  <name>package_that_succeeds</name>
+  <description>A simple cmake package</description>
+  <maintainer email="caio.amaral@fieb.com.br">Caio Amaral</maintainer>
+  <license>TODO</license>
+  <url type="documentation">https://dontexist.github.io/</url>
+
+  <depend package="cmake"/>
+
+</package>

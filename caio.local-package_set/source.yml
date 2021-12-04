@@ -1,0 +1,8 @@
+name: caio.local-package_set
+constants:
+  PREFIX_DIR: $AUTOPROJ_ROOT/autoproj/caio.local-package_set
+
+version_control:
+  - package_that_succeeds:
+    type: local
+    url: $PREFIX_DIR/src/package_that_succeeds

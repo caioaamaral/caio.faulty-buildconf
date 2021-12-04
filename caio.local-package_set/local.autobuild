@@ -1,0 +1,2 @@
+cmake_package 'package_that_succeeds'
+
