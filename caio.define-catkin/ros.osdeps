@@ -1,0 +1,5 @@
+catkin:
+    ubuntu:
+        xenial: ros-kinetic-catkin
+        bionic: ros-melodic-catkin
+        focal: ros-noetic-catkin

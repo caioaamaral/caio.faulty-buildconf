@@ -1,0 +1,71 @@
+python-catkin-pkg:
+  alpine:
+    pip:
+    - catkin-pkg
+  arch:
+  - python2-catkin_pkg
+  debian:
+  - python-catkin-pkg
+  fedora:
+  - python-catkin_pkg
+  freebsd:
+    pip:
+    - catkin-pkg
+  gentoo:
+  - dev-python/catkin_pkg
+  macports:
+  - python-catkin-pkg
+  openembedded:
+  - "${PYTHON_PN}-catkin-pkg@meta-ros"
+  opensuse:
+  - python-catkin_pkg
+  osx:
+    pip:
+    - catkin-pkg
+  rhel:
+    '7':
+    - python2-catkin_pkg
+  slackware:
+    pip:
+    - catkin-pkg
+  ubuntu:
+    artful:
+    - python-catkin-pkg
+    bionic:
+    - python-catkin-pkg
+    lucid:
+    - python-catkin-pkg
+    maverick:
+    - python-catkin-pkg
+    natty:
+    - python-catkin-pkg
+    oneiric:
+    - python-catkin-pkg
+    precise:
+    - python-catkin-pkg
+    quantal:
+    - python-catkin-pkg
+    raring:
+    - python-catkin-pkg
+    saucy:
+    - python-catkin-pkg
+    trusty:
+    - python-catkin-pkg
+    trusty_python3:
+    - python3-catkin-pkg
+    utopic:
+    - python-catkin-pkg
+    vivid:
+    - python-catkin-pkg
+    wily:
+    - python-catkin-pkg
+    wily_python3:
+    - python3-catkin-pkg
+    xenial:
+    - python-catkin-pkg
+    xenial_python3:
+    - python3-catkin-pkg
+    yakkety:
+    - python-catkin-pkg
+    zesty:
+    - python-catkin-pkg

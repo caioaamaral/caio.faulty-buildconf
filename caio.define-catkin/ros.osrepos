@@ -1,0 +1,19 @@
+- ubuntu:
+  - xenial:
+    - type: repo
+      repo: 'deb http://packages.ros.org/ros/ubuntu xenial main'
+    - type: key
+      keyserver: 'hkp://keyserver.ubuntu.com:80'
+      id: C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+  - bionic:
+    - type: repo
+      repo: 'deb http://packages.ros.org/ros/ubuntu bionic main'
+    - type: key
+      keyserver: 'hkp://keyserver.ubuntu.com:80'
+      id: C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+  - focal:
+    - type: repo
+      repo: 'deb http://packages.ros.org/ros/ubuntu focal main'
+    - type: key
+      keyserver: 'hkp://keyserver.ubuntu.com:80'
+      id: C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
