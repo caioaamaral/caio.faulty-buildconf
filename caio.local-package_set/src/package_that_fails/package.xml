@@ -1,0 +1,13 @@
+<package>
+  <name>package_that_fails</name>
+  <version>0.0.0</version>
+  <description>A dummy package that fails</description>
+  <maintainer email="caio.amaral@fieb.com.br">Caio Amaral</maintainer>
+
+  <license>TODO</license>
+  <url type="documentation">https://dontexist.github.io/</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>pycodestyle-latest</depend>
+</package>
+

@@ -1,2 +1,2 @@
 cmake_package 'package_that_succeeds'
-
+catkin_package 'package_that_fails'

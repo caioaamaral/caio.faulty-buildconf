@@ -6,3 +6,7 @@ version_control:
   - package_that_succeeds:
     type: local
     url: $PREFIX_DIR/src/package_that_succeeds
+  - package_that_fails:
+    type: local
+    url: $PREFIX_DIR/src/package_that_fails
+
