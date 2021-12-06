@@ -1,0 +1,24 @@
+pycodestyle-latest:
+  ubuntu:
+    xenial:
+      pip:
+        - pycodestyle==2.2.0
+        - pytest==2.9.2
+        - pytest-runner==2.9
+      ubuntu:
+        - python3-setuptools
+        - python-setuptools
+    bionic:
+      pip:
+        - pycodestyle==2.2.0
+        - pytest==2.9.2
+        - pytest-runner==2.9
+      ubuntu:
+        - python3-setuptools
+        - python-setuptools
+    default:
+      pip:
+        - pycodestyle
+      ubuntu:
+        - python-setuptools
+        - python3-setuptools

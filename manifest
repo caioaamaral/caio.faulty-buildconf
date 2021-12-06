@@ -1,5 +1,6 @@
 package_sets:
   - caio.define-catkin
   - caio.local-package_set
+  - caio.common-osdeps
 
 layout:
