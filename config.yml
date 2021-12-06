@@ -1,0 +1,10 @@
+---
+apt_dpkg_update: 'true'
+osdeps_mode: all
+GITORIOUS: ssh
+GITHUB: ssh
+CODE_INTEGRATION: false
+CODE_MANAGE_FOLDERS: false
+USE_PYTHON: true
+python_executable: /usr/bin/python2
+
