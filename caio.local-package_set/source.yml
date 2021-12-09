@@ -2,6 +2,9 @@ name: caio.local-package_set
 constants:
   PREFIX_DIR: $AUTOPROJ_ROOT/autoproj/caio.local-package_set
 
+imports:
+  - github: rock-core/rock-package_set
+
 version_control:
   - package_that_succeeds:
     type: local
